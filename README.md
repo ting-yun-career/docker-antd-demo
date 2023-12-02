@@ -32,10 +32,8 @@ run `npm test` under `server`
 
 ## Frontend Implementation
 
-1. Login with JWT token verification
-2. Dashboard with mining statistics
-3. Miners Management with CRUD operations and pagination
-4. Analysis page for Antminer S1
+1. Login
+2. Fetch items with token verification
 
 ## Endpoints
 
