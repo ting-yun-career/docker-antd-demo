@@ -1,13 +1,11 @@
 {
-  "name": "DMG server",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "cross-env mode=test jest --watchAll",
-    "server:build": "docker build -t dmg-server .",
-    "server:run": "docker run -p 4000:4000 dmg-server"
+    "test": "cross-env mode=test jest --watchAll"
   },
   "jest": {
     "detectOpenHandles": true,

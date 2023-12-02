@@ -14,7 +14,7 @@ services:
     image: node:latest
     working_dir: /client
     volumes:
-      - ./client:/client
+      - ./client/build:/client
     ports:
       - "3000:3000"
-    command: yarn start
+    command: npx http-server -p 3000
