@@ -1,6 +1,6 @@
 # Description
 
-This demo project wraps [ant-demo](https://github.com/ting-yun-career/antd-demo) in containerized docker app.
+This demo project wraps [ant-demo](https://github.com/ting-yun-career/antd-demo) as a docker deployable.
 
 ## Project strcture
 
@@ -30,17 +30,7 @@ Please make sure port 3000 and 4000 are not occupied prior to start.
 
 run `npm test` under `server`
 
-## Frontend Implementation
-
-1. Login
-2. Fetch items with token verification
-
 ## Endpoints
 
 1. Login [POST]
 2. Items [GET]
-
-## Container Implemenation
-
-1. Create React App (Port 3000)
-2. Node.JS (Port 4000)
